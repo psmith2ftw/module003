@@ -1,0 +1,227 @@
+================================================================================
+MODULE 3: ASPIRIN SYNTHESIS OPTIMIZATION
+Student Data Packet
+================================================================================
+
+Student Name: Piccolo Hill, Walker Brockett
+Student ID: 24
+Generated: 2025-10-07
+
+--------------------------------------------------------------------------------
+CURRENT OPERATING CONDITIONS
+--------------------------------------------------------------------------------
+
+STEP 1: Salicylic Acid Production from Phenol
+
+Reactor Inputs:
+  Sodium phenoxide charged: 4802.4 g
+  CO₂ pressure: 5.17 atm
+  CO₂ temperature: 26.5 °C
+  Reactor volume: 208.0 L
+
+Measured Output:
+  Salicylic acid recovered: 3393.96 g
+
+STEP 2: Acetic Anhydride Production via Methanol Oxidation
+
+Reactor Inputs:
+  Methanol charged: 1993.0 g
+  O₂ pressure: 4.68 atm
+  O₂ temperature: 90.1 °C
+  Reactor volume: 206.2 L
+
+Measured Outputs:
+  Acetic anhydride recovered: 2467.11 g
+  CO₂ waste collected: 610.48 g
+  (CO₂ waste indicates methanol lost to combustion side reaction)
+
+STEP 3: Aspirin Synthesis (Acetylation)
+
+Reactor Inputs:
+  Salicylic acid charged (from Step 1): 3393.96 g
+  Acetic anhydride charged (from Step 2): 2467.11 g
+
+Measured Output:
+  Aspirin (acetylsalicylic acid) recovered: 2869.13 g
+
+--------------------------------------------------------------------------------
+PROCESS PERFORMANCE SUMMARY
+--------------------------------------------------------------------------------
+
+Starting material: 4802.4 g sodium phenoxide
+Final product: 2869.13 g aspirin
+
+NOTE: Your task is to calculate theoretical yields, actual yields, percent
+yields for each step, identify limiting reagents, and determine the overall
+process efficiency. You must show calculations using BOTH ideal gas law and
+Van der Waals corrections for all gas handling steps.
+
+--------------------------------------------------------------------------------
+CHEMICAL PROPERTY DATA
+--------------------------------------------------------------------------------
+
+Molecular Weights (g/mol):
+  Sodium phenoxide (C₆H₅ONa): 116.09
+  CO₂: 44.01
+  Salicylic acid (C₆H₄(OH)COOH): 138.12
+  Methanol (CH₃OH): 32.04
+  O₂: 32.00
+  Acetic acid (CH₃COOH): 60.05
+  Acetic anhydride ((CH₃CO)₂O): 102.09
+  Aspirin (C₉H₈O₄): 180.16
+
+Gas Constants:
+  R = 0.08206 L·atm/(mol·K)
+  R = 8.314 J/(mol·K)
+
+Van der Waals Parameters:
+  CO₂: a = 3.658 atm·L²/mol², b = 0.04267 L/mol
+  O₂: a = 1.378 atm·L²/mol², b = 0.03183 L/mol
+
+--------------------------------------------------------------------------------
+ECONOMIC INFORMATION
+--------------------------------------------------------------------------------
+
+Raw Material Costs:
+  Sodium phenoxide: $9.98/kg
+  Methanol: $0.41/kg
+  Oxygen (industrial): $0.102/kg
+  HCl, catalysts, solvents: Low
+
+Product Value:
+  Aspirin: $53.83/kg
+
+Waste Disposal:
+  CO2 emissions incur environmental penalties; organic waste requires proper disposal
+
+--------------------------------------------------------------------------------
+SAFETY DATA
+--------------------------------------------------------------------------------
+
+Maximum Operating Pressures:
+  Step 1 reactor: 11.8 atm
+  Step 2 reactor: 7.7 atm
+
+O₂ Explosion Hazard Limits:
+  Safe range: 6-10 vol% O₂ in organic vapors
+
+Temperature Warning:
+  Temperature excursions of >10°C may cause unsafe pressure increases
+
+================================================================================
+YOUR ANALYSIS TASKS
+================================================================================
+
+1. Balance all chemical equations (Step 2 reactions are UNBALANCED)
+
+2. For EACH step, calculate:
+   a) Theoretical yield based on stoichiometry
+   b) Actual yield (percent yield)
+   c) Identify the limiting reagent
+
+3. For gas handling (Steps 1 & 2), you MUST calculate:
+   a) Moles of gas using IDEAL GAS LAW (PV = nRT)
+   b) Moles of gas using VAN DER WAALS equation: (P + a(n/V)²)(V - nb) = nRT
+   c) Percent deviation between ideal and real gas predictions
+   d) Discuss which approach is more accurate and why
+
+4. Calculate:
+   a) Theoretical yields WITH ideal gas assumption
+   b) Theoretical yields WITH Van der Waals corrections
+   c) Compare the difference and impact on overall yield
+
+5. Complete material balance table for all steps
+
+6. Calculate Step 2 selectivity:
+   - What fraction of methanol went to acetic acid vs. combustion?
+   - Use CO₂ waste mass to determine methanol lost to combustion
+
+7. Perform safety analysis:
+   - Calculate pressure if temperature increases by 10°C
+   - Verify pressures stay below safety limits
+   - Recommend pressure relief settings
+
+8. Identify bottleneck step and recommend process optimization:
+   - Calculate optimal feed ratios
+   - Perform economic impact analysis
+   - Address safety considerations
+
+IMPORTANT: You must explicitly show calculations using BOTH ideal gas law
+and Van der Waals corrections. Compare the results and discuss when the
+Van der Waals correction becomes significant (typically >2-5% deviation).
+
+See problem statement for detailed requirements and report format.
+Theoretical maximum (if 100% yield): 7452.84 g
+
+--------------------------------------------------------------------------------
+CHEMICAL PROPERTY DATA
+--------------------------------------------------------------------------------
+
+Molecular Weights (g/mol):
+  Sodium phenoxide (C₆H₅ONa): 116.09
+  CO₂: 44.01
+  Salicylic acid (C₆H₄(OH)COOH): 138.12
+  Methanol (CH₃OH): 32.04
+  O₂: 32.00
+  Acetic acid (CH₃COOH): 60.05
+  Acetic anhydride ((CH₃CO)₂O): 102.09
+  Aspirin (C₉H₈O₄): 180.16
+
+Gas Constants:
+  R = 0.08206 L·atm/(mol·K)
+  R = 8.314 J/(mol·K)
+
+Van der Waals Parameters:
+  CO₂: a = 3.658 atm·L²/mol², b = 0.04267 L/mol
+  O₂: a = 1.378 atm·L²/mol², b = 0.03183 L/mol
+
+--------------------------------------------------------------------------------
+ECONOMIC INFORMATION
+--------------------------------------------------------------------------------
+
+Raw Material Costs:
+  Sodium phenoxide: $9.98/kg
+  Methanol: $0.41/kg
+  Oxygen (industrial): $0.102/kg
+  HCl, catalysts, solvents: Low
+
+Product Value:
+  Aspirin: $53.83/kg
+
+Waste Disposal:
+  CO2 emissions incur environmental penalties; organic waste requires proper disposal
+
+--------------------------------------------------------------------------------
+SAFETY DATA
+--------------------------------------------------------------------------------
+
+Maximum Operating Pressures:
+  Step 1 reactor: 11.8 atm
+  Step 2 reactor: 7.7 atm
+
+O₂ Explosion Hazard Limits:
+  Safe range: 6-10 vol% O₂ in organic vapors
+
+Temperature Warning:
+  Temperature excursions of >10°C may cause unsafe pressure increases
+
+================================================================================
+YOUR ANALYSIS TASKS
+================================================================================
+
+1. Balance all chemical equations (Step 2 reactions are UNBALANCED)
+2. Calculate theoretical yields for each step
+3. Identify limiting reagents at each step
+4. Calculate actual yields and overall process yield
+5. Complete material balance table
+6. Apply ideal gas law for CO₂ (Step 1) and O₂ (Step 2)
+7. Apply Van der Waals corrections and compare to ideal gas predictions
+8. Perform safety analysis (pressure with temperature increase)
+9. Calculate partial pressures for Step 2 gas mixture
+10. Identify bottleneck step and recommend process optimization
+11. Calculate optimal feed ratios
+12. Perform economic impact analysis
+13. Address safety considerations
+
+See problem statement for detailed requirements and report format.
+================================================================================
